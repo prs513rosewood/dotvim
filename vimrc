@@ -96,6 +96,7 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap gb :bn<CR>
 nnoremap gB :bp<CR>
 nnoremap gG :e #<CR>
+nnoremap <leader>b :buffers<CR>
 
 " Semi-colon helper
 nnoremap é :
@@ -118,7 +119,10 @@ set undofile
 set undodir=~/.vim/undodir
 
 " Switching between header and implementation
-nnoremap <F4> :e %:p:s,.hh$,.X123X,:s,.cc$,.hh,:s,.X123X$,.cc,<CR>
+nnoremap <leader>fo :e %:p:s,.hh$,.X123X,:s,.cc$,.hh,:s,.X123X$,.cc,<CR>
+
+" Edit current folder
+nnoremap <leader>ff :e .<CR>
 
 " Mapping to replace . with ->
 nnoremap <leader>a f.i-><del><esc>
@@ -144,7 +148,6 @@ let g:ConqueGdb_SrcSplit = 'left'
 
 " Tags options
 set tags=~/.vim/tags
-command! AkTags !ctags -f ~/.vim/tags -R ~/Documents/akantu
 nnoremap <C-b> :pop<CR>
 nnoremap <C-]> g<C-]>
 

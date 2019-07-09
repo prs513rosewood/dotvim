@@ -44,7 +44,11 @@ filetype plugin indent on    " required
 " ----------------------------------------------------------------------------------------
 
 " Turn off the lights...
-set background=dark
+if has("win32")
+  set background=light
+else
+  set background=dark
+endif
 
 " Activate mouse
 set mouse=a

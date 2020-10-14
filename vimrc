@@ -70,7 +70,7 @@ set softtabstop=2
 set shiftwidth=2
 
 " Set tabs for python files
-au FileType python setlocal expandtab shiftwidth=2
+au FileType python setlocal expandtab shiftwidth=4
 
 " Set bash-like autocomplete
 set wildmenu
@@ -127,6 +127,9 @@ nnoremap <leader>fo :e %:p:s,.hh$,.X123X,:s,.cc$,.hh,:s,.X123X$,.cc,<CR>
 
 " Edit current folder
 nnoremap <leader>ff :e .<CR>
+
+" Switch to last buffer
+nnoremap <leader><TAB> gG
 
 " Mapping to replace . with ->
 nnoremap <leader>a f.i-><del><esc>

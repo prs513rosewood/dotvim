@@ -130,7 +130,7 @@ nnoremap <leader>fo :e %:p:s,.hh$,.X123X,:s,.cc$,.hh,:s,.X123X$,.cc,<CR>
 nnoremap <leader>ff :e .<CR>
 
 " Switch to last buffer
-nnoremap <leader><TAB> gG
+map <leader><C-i> gG
 
 " Mapping to replace . with ->
 nnoremap <leader>a f.i-><del><esc>

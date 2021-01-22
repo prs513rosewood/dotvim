@@ -107,6 +107,9 @@ nnoremap <leader>b :buffers<CR>
 nnoremap é :
 nnoremap ; :
 
+" remap Y to make sense
+noremap Y y$
+
 " Folds
 set foldmethod=manual
 

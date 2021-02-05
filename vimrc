@@ -15,17 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-"Plugin 'vim-scripts/Conque-GDB'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'jamessan/vim-gnupg'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'dag/vim-fish'
-
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

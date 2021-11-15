@@ -95,6 +95,7 @@ nnoremap <leader>b :buffers<CR>
 
 " Semi-colon helper
 nnoremap é :
+nnoremap ö :
 nnoremap ; :
 
 " remap Y to make sense

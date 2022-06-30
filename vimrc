@@ -57,8 +57,8 @@ endfunction
 nnoremap <F12> :call Switchlight()<CR>
 
 " Set tab spaces (mixed mode here)
-set softtabstop=2
-set shiftwidth=2
+set softtabstop=4
+set shiftwidth=4
 
 " Set tabs for python files
 au FileType python setlocal expandtab shiftwidth=4

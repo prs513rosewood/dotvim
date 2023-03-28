@@ -16,6 +16,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'dag/vim-fish'
+Plugin 'https://github.com/snakemake/snakemake.git', {'rtp': 'misc/vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -79,6 +80,9 @@ set ignorecase
 
 " Change directory to current file's
 set autochdir
+
+" No fold
+set nofoldenable
 
 " Map leader
 let mapleader="\<space>"

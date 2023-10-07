@@ -58,6 +58,7 @@ endfunction
 nnoremap <F12> :call Switchlight()<CR>
 
 " Set tab spaces (mixed mode here)
+set expandtab
 set softtabstop=4
 set shiftwidth=4
 
